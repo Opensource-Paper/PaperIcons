@@ -53,7 +53,7 @@ class PaperIcons {
 }
 
 // Create a new instance of PaperIcons
-const papericons = new Papericons();
+const paperIcons = new PaperIcons();
 
 // Replace icons on the page
 paperIcons.replaceIcons();
