@@ -45,18 +45,8 @@ npm install paper-icons/react
 Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://paperui.com) for more guidance on using each icon. That's it 🎉.
 
 ```html
-<media-button-filled>Filled</media-button-filled>
-<media-button-outlined>Outlined</media-button-outlined>
+<i paper-icon="record"></i>
 ```
-
-```html
-<media-switch></media-switch>
-<media-switch disabled checked></media-switch>
-```
-
-<!--<p align="center">
-<img alt="Logo Banner" src="https://paperui.com/banner/switch.gif?sanitize=true"/>
-<br/>-->
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).
 
