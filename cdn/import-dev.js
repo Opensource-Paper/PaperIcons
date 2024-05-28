@@ -52,6 +52,12 @@ class PaperIcons {
   }
 }
 
+// Create a new instance of PaperIcons
+const paperIcons = new PaperIcons();
+
+// Replace icons on the page
+paperIcons.replaceIcons();
+
 // Add a new icon
 ///paperIcons.addIcon('download', `<svg>...</svg>`);
 
