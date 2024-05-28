@@ -13,4 +13,4 @@ class PaperIcons{constructor(){this.iconData={"archive":`<svg width="24" height=
 replaceIcons(){const paperIcons=document.querySelectorAll(`i[${this.options.iconAttribute}]`);paperIcons.forEach((icon)=>{const iconName=icon.getAttribute(this.options.iconAttribute);if(this.iconData[iconName]){icon.outerHTML=this.iconData[iconName]}else{icon.classList.add(this.options.fallbackClass);this.options.onIconNotFound(iconName)}})}
 addIcon(name,svgContent){this.iconData[name]=svgContent}
 configure(options){this.options={...this.options,...options}}}
-const paperIcons=new PaperIcons();paperIcons.replaceIcons();paperIcons.addIcon('download',`<svg>...</svg>`);paperIcons.configure({iconAttribute:'data-paper-icon',fallbackClass:'custom-fallback',onIconNotFound:(iconName)=>{console.error(`Icon "${iconName}" not found in the icon data.`)},})
+const paperIcons=new PaperIcons();paperIcons.replaceIcons()
