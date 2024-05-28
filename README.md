@@ -3,7 +3,7 @@
 <br/>
 
 <!--<div align="center"><a href='https://ko-fi.com/brick_wall' target='_blank'><img height='30' style='border:0px;height:41px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' margin-top="10px" alt='Buy Me a Coffee at ko-fi.com'/></a></div>-->
-<div align="left">Paper Icons is a modern and beautiful icon library built to seamlessly integrate with Paper UI.</div>
+<div align="left">Paper Icons is a modern and beautiful icon library built to seamlessly integrate with Paper UI.</div> [Paper UI](https://icons.paperui.com/)
 <div align="left">
 
 [Documentation](https://icons.paperui.com/)
