@@ -7,7 +7,7 @@
 <div align="left">
 
 [Documentation](https://icons.paperui.com/)
-Check out [Paper UI](https://github.com/Opensource-Paper/PaperUI)
+[Paper UI](https://github.com/Opensource-Paper/PaperUI)
 
 </div>
 
