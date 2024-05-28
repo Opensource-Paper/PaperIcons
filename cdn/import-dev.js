@@ -1,5 +1,5 @@
 /**
- * Paper Icons - A lightweight and customizable icon library for your web project.
+ * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI..
  * @version 0.0
  * @author Opensource-Paper fionnanloughlin@gmail.com
  * @license MIT
