@@ -17,11 +17,11 @@
 Import Paper Icons using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
-<script type="module" src="https://papericons.com/cdn/import-min.js"></script>
+<script type="module" src="https://icons.paperui.com/cdn/import-min.js"></script>
 ```
 #### 🚧 Development
 ```html
-<script type="module" src="https://papericons.com/cdn/import-dev.js"></script>
+<script type="module" src="https://icons.paperui.com/cdn/import-dev.js"></script>
 ```
 
 ### NPM
@@ -42,11 +42,11 @@ npm install paper-icons/react
 
 ## Usage
 
-Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://paperui.com) for more guidance on using each icon. That's it 🎉.
+Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://icons.paperui.com) for more guidance on using each icon. That's it 🎉.
 
 ```html
 <i paper-icon="record"></i>
 ```
 
-Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).
+<!--Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).-->
 
