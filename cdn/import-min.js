@@ -1,7 +1,7 @@
 /**
- * Paper Icons - A lightweight and customizable icon library for your web project.
- * @version 2.0.0
- * @author Your Name <your.email@example.com>
+ * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI..
+ * @version 0.0
+ * @author Opensource-Paper fionnanloughlin@gmail.com
  * @license MIT
  */
 class PaperIcons{constructor(){this.iconData={"disc":`<svg color="currentColor" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
