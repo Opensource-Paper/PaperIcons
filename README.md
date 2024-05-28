@@ -45,19 +45,12 @@ npm install paper-icons/react
 Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://icons.paperui.com) for more guidance on using each icon. That's it 🎉.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <title></title>
-  <script type="module" src="https://icons.paperui.com/cdn/import-min.js"></script>
-  <body>
-    <!-- example icon -->
-    <i paper-icon="disc"></i>
+<!-- example icon -->
+<i paper-icon="disc"></i>
 
-    <script>
-      papericons.replace();
-    </script>
-  </body>
-</html>
+<script>
+  papericons.replace();
+</script>
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
