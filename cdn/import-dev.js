@@ -56,16 +56,16 @@ class PaperIcons {
 const papericons = new Papericons();
 
 // Replace icons on the page
-//paperIcons.replaceIcons();
+paperIcons.replaceIcons();
 
 // Add a new icon
-//paperIcons.addIcon('download', `<svg>...</svg>`);
+paperIcons.addIcon('download', `<svg>...</svg>`);
 
 // Configure the library
-//paperIcons.configure({
-//  iconAttribute: 'data-paper-icon',
-//  fallbackClass: 'custom-fallback',
-//  onIconNotFound: (iconName) => {
-//    console.error(`Icon "${iconName}" not found in the icon data.`);
-//  },
-//});
+paperIcons.configure({
+  iconAttribute: 'data-paper-icon',
+  fallbackClass: 'custom-fallback',
+  onIconNotFound: (iconName) => {
+    console.error(`Icon "${iconName}" not found in the icon data.`);
+  },
+});
