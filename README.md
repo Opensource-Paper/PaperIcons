@@ -49,7 +49,9 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 <i paper-icon="disc"></i>
 
 <script>
+
   papericons.replace();
+
 </script>
 ```
 
