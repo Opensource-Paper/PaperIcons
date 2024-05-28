@@ -14,7 +14,7 @@
 
 ### CDN
 
-Import Paper UI web components using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
+Import Paper Icons using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
 <script type="module" src="https://papericons.com/cdn/import-min.js"></script>
