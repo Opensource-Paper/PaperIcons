@@ -60,5 +60,5 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 </html>
 ```
 
-<!--Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/mdYeKrM).-->
+Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
 
