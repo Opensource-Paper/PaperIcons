@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperIcons/blob/6794e302776a0e65e73ec5b4b116886b03956020/banner/banner.svg?sanitize=true"/>
+<img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperIcons/blob/73ff4c70cd51d1e426d936c369dd8fab2a237661/banner/banner%20(2).svg?sanitize=true"/>
 <br/>
 
 <!--<div align="center"><a href='https://ko-fi.com/brick_wall' target='_blank'><img height='30' style='border:0px;height:41px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' margin-top="10px" alt='Buy Me a Coffee at ko-fi.com'/></a></div>-->
