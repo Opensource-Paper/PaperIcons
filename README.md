@@ -8,7 +8,7 @@
 
 [Documentation](https://icons.paperui.com/)
 <br/>
-[Paper UI](https://github.com/Opensource-Paper/PaperUI)
+check out [Paper UI](https://github.com/Opensource-Paper/PaperUI)
 
 </div>
 
