@@ -42,7 +42,7 @@ npm install paper-icons/react
 
 ## Usage
 
-Use the ```<component-name>``` tag in HTML markup. Refer to the [Component Docs](https://paperui.com) for more guidance on using each component. That's it 🎉.
+Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://paperui.com) for more guidance on using each icon. That's it 🎉.
 
 ```html
 <media-button-filled>Filled</media-button-filled>
