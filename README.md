@@ -6,7 +6,7 @@
 <div align="left">Paper Icons is a modern and beautiful icon library built to seamlessly integrate with Paper UI.</div>
 <div align="left">
 
-[Documentation](https://paperui.com/)
+[Documentation](https://icons.paperui.com/)
 
 </div>
 
