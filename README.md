@@ -47,10 +47,6 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 ```html
 <!-- example icon -->
 <i paper-icon="disc"></i>
-
-<script>
-  papericons.replace();
-</script>
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
