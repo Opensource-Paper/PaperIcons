@@ -1,7 +1,7 @@
 /**
  * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI..
- * @version 0.1
- * @author Opensource-Paper fionnanloughlin@gmail.com
+ * @version 0.0.1
+ * @author Opensource-Paper
  * @license MIT
  */
 
@@ -28,7 +28,7 @@ class PaperIcons {
       },
     };
 
-    this.version = '0.1';
+    this.version = '0.0.1';
   }
 
   replaceIcons() {
