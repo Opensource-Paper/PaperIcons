@@ -1,6 +1,6 @@
 /**
  * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI..
- * @version 0.0
+ * @version 0.0.1
  * @author Opensource-Paper fionnanloughlin@gmail.com
  * @license MIT
  */
@@ -9,8 +9,8 @@ class PaperIcons{constructor(){this.iconData={"archive":`<svg width="24" height=
       `,"disc":`<svg width="24" height="24" color="currentColor" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle  cx="12" cy="12" r="10" color="currentColor" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="2" color="currentColor" stroke="currentColor" stroke-width="2"/></svg>
       `,"disc-2":`<svg width="24" height="24" color="currentColor" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" color="currentColor" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="1" color="currentColor" fill="currentColor"/><circle cx="12" cy="12" r="4" color="currentColor" stroke="currentColor" stroke-width="2"/></svg>
       `,"more-horizontal":`<svg width="24" height="24" color="currentColor" stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="1" color="currentColor" stroke="currentColor" stroke-width="2"/><circle cx="5" cy="12" r="1" color="currentColor" stroke="currentColor" stroke-width="2"/><circle cx="19" cy="12" r="1" color="currentColor" stroke="currentColor" stroke-width="2"/></svg>
-      `,};this.options={iconAttribute:'paper-icon',fallbackClass:'paper-icon-fallback',onIconNotFound:(iconName)=>{console.warn(`Icon "${iconName}" could not be found or does not exist.`)},}}
-replaceIcons(){const paperIcons=document.querySelectorAll(`i[${this.options.iconAttribute}]`);paperIcons.forEach((icon)=>{const iconName=icon.getAttribute(this.options.iconAttribute);if(this.iconData[iconName]){icon.outerHTML=this.iconData[iconName]}else{icon.classList.add(this.options.fallbackClass);this.options.onIconNotFound(iconName)}})}
+      `,};this.options={iconAttribute:'paper-icon',fallbackClass:'paper-icon-fallback',onIconNotFound:(iconName)=>{console.warn(`Icon "${iconName}" could not be found or does not exist.`)},};this.version='0.0.1'}
+replaceIcons(){const paperIcons=document.querySelectorAll(`i[${this.options.iconAttribute}]`);let allIconsImported=!0;paperIcons.forEach((icon)=>{const iconName=icon.getAttribute(this.options.iconAttribute);if(this.iconData[iconName]){icon.outerHTML=this.iconData[iconName]}else{icon.classList.add(this.options.fallbackClass);this.options.onIconNotFound(iconName);allIconsImported=!1}});if(allIconsImported){console.log(`Paper Icons v${this.version} imported successfully.`)}}
 addIcon(name,svgContent){this.iconData[name]=svgContent}
 configure(options){this.options={...this.options,...options}}}
 const paperIcons=new PaperIcons();paperIcons.replaceIcons()
