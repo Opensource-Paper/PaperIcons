@@ -1,6 +1,6 @@
 /**
  * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI..
- * @version 0.0
+ * @version 0.1
  * @author Opensource-Paper fionnanloughlin@gmail.com
  * @license MIT
  */
@@ -27,10 +27,13 @@ class PaperIcons {
         console.warn(`Icon "${iconName}" could not be found or does not exist.`);
       },
     };
+
+    this.version = '0.1';
   }
 
   replaceIcons() {
     const paperIcons = document.querySelectorAll(`i[${this.options.iconAttribute}]`);
+    let allIconsImported = true;
 
     paperIcons.forEach((icon) => {
       const iconName = icon.getAttribute(this.options.iconAttribute);
@@ -39,8 +42,13 @@ class PaperIcons {
       } else {
         icon.classList.add(this.options.fallbackClass);
         this.options.onIconNotFound(iconName);
+        allIconsImported = false;
       }
     });
+
+    if (allIconsImported) {
+      console.log(`Paper Icons v${this.version} imported successfully.`);
+    }
   }
 
   addIcon(name, svgContent) {
