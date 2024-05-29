@@ -24,7 +24,7 @@ class PaperIcons {
       iconAttribute: 'paper-icon',
       fallbackClass: 'paper-icon-fallback',
       onIconNotFound: (iconName) => {
-        console.warn(`Icon "${iconName}" could not be found or does not exist.`);
+        console.warn(`Icon "${iconName}" Could not be found or does not exist.`);
       },
     };
 
@@ -47,7 +47,7 @@ class PaperIcons {
     });
 
     if (allIconsImported) {
-      console.log(`Paper Icons v${this.version} imported successfully.`);
+      console.log(`Imported Paper Icons v${this.version} successfully.`);
     }
   }
 
