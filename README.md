@@ -32,17 +32,21 @@ Install Paper Icons using [npm and node](https://nodejs.org/en).
 npm install paper-icons/icons
 ```
 
-### React NPM
+## Import
 
-Install Paper Icons with React using [npm and node](https://nodejs.org/en).
+Import icon definitions from ```papericons/import.js```.
 
-```bash
-npm install paper-icons/react
+```index.js```
+
+```js
+import 'papericons/import.js';
 ```
 
 ## Usage
 
 Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://icons.paperui.com) for more guidance on using each icon. That's it 🎉.
+
+```HTML```
 
 ```html
 <!-- example icon -->
@@ -50,4 +54,3 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
-
