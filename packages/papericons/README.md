@@ -21,7 +21,7 @@ Import Paper Icons using CDN. The import-min.js file will automatically import a
 
 #### 🚧 Specific Version
 ```html
-<script type="module" src="https://unpkg.com/papericons@0.0.24"></script>
+<script type="module" src="https://unpkg.com/papericons@0.0.25"></script>
 ```
 
 <!--#### 🚧 Development
@@ -72,11 +72,11 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
 
-## Backers
+<!--## Backers
 
 Thank you to all our backers! 🙏.
 
-[![Backers](https://opencollective.com/bootstrap/backers.svg?width=890)](https://opencollective.com/bootstrap#backers)
+[![Backers](https://opencollective.com/bootstrap/backers.svg?width=890)](https://opencollective.com/bootstrap#backers)-->
 
 
 ## Copyright and license
