@@ -83,4 +83,4 @@ Thank you to all our backers! 🙏.
 
 Licensed under the MIT License, Copyright © 2024-present Opensource-Paper.
 
-See [LICENSE](https://creativecommons.org/licenses/by/3.0/) for more information.
+See [LICENSE](https://github.com/Opensource-Paper/PaperIcons/blob/main/LICENSE) for more information.
