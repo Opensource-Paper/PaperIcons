@@ -1,10 +1,3 @@
-/**
- * Paper Icons - A modern and beautiful icon library built to seamlessly integrate with Paper UI.
- * @version 0.0.13
- * @author Opensource-Paper
- * @license MIT
- */
-
 class PaperIcons {
   constructor() {
     this.iconData = {
