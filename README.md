@@ -55,6 +55,14 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 ```html
 <!-- example icon -->
 <i paper-icon="disc"></i>
+
+<!-- using vanilla js with no framework -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    window.PaperIcons.replaceIcons();
+  });
+</script>
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
