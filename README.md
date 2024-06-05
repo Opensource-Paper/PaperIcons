@@ -71,3 +71,16 @@ Use the ```<icon-name>``` tag in HTML markup. Refer to the [Icon Docs](https://i
 ```
 
 Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/bootstrap#backer)]
+
+[![Backers](https://opencollective.com/bootstrap/backers.svg?width=890)](https://opencollective.com/bootstrap#backers)
+
+
+## Copyright and license
+
+Licensed under the MIT License, Copyright © 2024-present Opensource-Paper.
+
+See [LICENSE](https://creativecommons.org/licenses/by/3.0/) for more information.
