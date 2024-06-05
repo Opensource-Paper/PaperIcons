@@ -74,7 +74,7 @@ Check out the demo on [codepen](https://codepen.io/GreenestGoat/pen/YzbpOBv).
 
 ## Backers
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/bootstrap#backer)]
+Thank you to all our backers! 🙏.
 
 [![Backers](https://opencollective.com/bootstrap/backers.svg?width=890)](https://opencollective.com/bootstrap#backers)
 
