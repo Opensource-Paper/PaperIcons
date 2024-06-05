@@ -39,7 +39,11 @@ Import icon definitions from ```papericons/import.js```.
 ```index.js```
 
 ```js
-import 'papericons/import.js';
+import paperIcons from 'papericons';
+
+document.addEventListener('DOMContentLoaded', () => {
+  paperIcons.replaceIcons();
+});
 ```
 
 ## Usage
