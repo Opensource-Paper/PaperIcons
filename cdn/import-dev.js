@@ -1,23 +1,3 @@
-window.addEventListener('load', loadLibrary);
-
-// import libraries
-
-function loadLibrary() {
-  // Add CSS links
-
-  // Add JS scripts
-  var jsScripts = [
-    'papericons@latest',
-    // Add more JS scripts here...
-  ];
-
-  jsScripts.forEach(function(script) {
-    var jsTag = document.createElement('script');
-    jsTag.src = 'https://unpkg.com/' + script;
-    document.head.appendChild(jsTag);
-  });
-}
-
 /*class PaperIcons {
   constructor() {
     this.iconData = {
