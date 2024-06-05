@@ -2,7 +2,6 @@
 <img alt="Logo Banner" src="https://github.com/Opensource-Paper/PaperIcons/blob/ce8c90655dcdc2e201e44f501841fff9db7e7512/banner/banner.png?sanitize=true"/>
 <br/>
 
-<!--<div align="center"><a href='https://ko-fi.com/brick_wall' target='_blank'><img height='30' style='border:0px;height:41px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' margin-top="10px" alt='Buy Me a Coffee at ko-fi.com'/></a></div>-->
 <div align="left">Paper Icons is a modern and beautiful icon library built to seamlessly integrate with Paper UI.</div>
 <div align="left">
 
@@ -17,7 +16,7 @@
 Import Paper Icons using CDN. The import-min.js file will automatically import all styles and JavaScript files into the ```<head>```.
 
 ```html
-<script type="module" src="https://icons.paperui.com/cdn/import-min.js"></script>
+<script type="module" src="https://unpkg.com/papericons"></script>
 ```
 #### 🚧 Development
 ```html
