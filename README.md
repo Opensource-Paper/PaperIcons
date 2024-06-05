@@ -29,7 +29,7 @@ Import Paper Icons using CDN. The import-min.js file will automatically import a
 Install Paper Icons using [npm and node](https://nodejs.org/en).
 
 ```bash
-npm install paper-icons/icons
+npm install papericons
 ```
 
 ## Import
