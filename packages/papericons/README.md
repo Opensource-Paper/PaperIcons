@@ -21,7 +21,7 @@ Import Paper Icons using CDN. The import-min.js file will automatically import a
 
 #### 🚧 Specific Version
 ```html
-<script type="module" src="https://unpkg.com/papericons@0.0.25"></script>
+<script type="module" src="https://unpkg.com/papericons@0.0.28"></script>
 ```
 
 <!--#### 🚧 Development
