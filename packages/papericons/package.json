@@ -1,8 +1,9 @@
 {
   "name": "papericons",
-  "version": "0.0.15",
+  "version": "0.0.18",
   "description": "A modern and beautiful icon library built to seamlessly integrate with Paper UI.",
   "main": "import.js",
+  "unpkg": "import.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,27 @@
   "bugs": {
     "url": "https://github.com/Opensource-Paper/PaperIcons/issues"
   },
-  "homepage": "https://github.com/Opensource-Paper/PaperIcons"
+  "homepage": "https://paperui.com",
+  "keywords": [
+    "javascript",
+    "svg",
+    "html",
+    "open-source",
+    "npm",
+    "documentation",
+    "js",
+    "paper",
+    "icons",
+    "icon-pack",
+    "svg-icons",
+    "icon",
+    "ui-components",
+    "figma",
+    "ui-library",
+    "svgs",
+    "paper-ui",
+    "paperui",
+    "paper-icons",
+    "papericons"
+  ]
 }
