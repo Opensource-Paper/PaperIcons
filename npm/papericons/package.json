@@ -1,0 +1,19 @@
+{
+  "name": "papericons",
+  "version": "0.0.15",
+  "description": "A modern and beautiful icon library built to seamlessly integrate with Paper UI.",
+  "main": "import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Opensource-Paper/PaperIcons.git"
+  },
+  "author": "Opensource-Paper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Opensource-Paper/PaperIcons/issues"
+  },
+  "homepage": "https://github.com/Opensource-Paper/PaperIcons"
+}
