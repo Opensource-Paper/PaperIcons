@@ -1,6 +1,6 @@
 {
   "name": "papericons",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "A modern and beautiful icon library built to seamlessly integrate with Paper UI.",
   "main": "import.js",
   "unpkg": "import.min.js",
