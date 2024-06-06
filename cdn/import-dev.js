@@ -18,7 +18,7 @@ class PaperIcons {
       },
     };
 
-    this.version = "0.0.1";
+    this.version = "";
   }
 
   replaceIcons() {
@@ -39,7 +39,7 @@ class PaperIcons {
     });
 
     if (allIconsImported) {
-      console.log(`Imported Paper Icons v${this.version} successfully.`);
+      console.log(`Imported Paper Icons ${this.version}successfully.`);
     }
   }
 
