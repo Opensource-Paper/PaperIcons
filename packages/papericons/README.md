@@ -39,7 +39,7 @@ npm install papericons
 
 ## Import
 
-Import icon definitions from ```papericons/import.js```.
+Import icon definitions from ```papericons```.
 
 ```index.js```
 
